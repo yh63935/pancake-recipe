@@ -1,0 +1,177 @@
+/*-------------------------General------------------------*/
+body {
+  font-family: 'Arial', sans-serif;
+  font-size: 21px;
+  display: flex;
+  padding: 3%;
+  flex-direction: column;
+  justify-content: center;
+  color: #43423f;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  line-height: 1.8;
+  min-width: 320px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-weight: 700;
+  margin: 50px 0 2px 0;
+}
+
+h4 {
+  margin-top: 50px;
+}
+
+/*-------------------------Header------------------------*/
+header {
+  text-align: center;
+  font-size: 18px;
+}
+
+img {
+  padding-top: 50px;
+  object-fit: cover;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*-----------------Navigation Wrapper---------------------*/
+nav {
+  background-color: #fee9cd;
+  line-height: 50px;
+  list-style: none;
+}
+
+nav ul {
+  list-style: none;
+  padding: 10px 0 15px 0;
+  display: block;
+}
+
+.categories {
+  display: inline-flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+/*-----------Search Bar------------*/
+.search-container {
+  display: inline-flex;
+  align-items: center;
+}
+
+.search {
+  display: flex;
+}
+
+.search input {
+  border: 0;
+  border-radius: 0;
+  height: 32px;
+}
+
+.nav-search-button {
+  background-color: #e12368;
+  color: white;
+  font-size: 12px;
+  border: 0;
+}
+
+/*-------------Reasons to Make the Pancakes---------------*/
+.reasons {
+  margin-bottom: 50px;
+}
+
+.reasons>h2 {
+  text-align: center;
+}
+
+/*-------------------------Recipe-------------------------*/
+.recipe-container {
+  padding: 3vh 4vw;
+  background-color: #fee9cd;
+  margin: auto;
+}
+
+.recipe-description>h2 {
+  margin-bottom: 0;
+}
+
+.recipe-container h3 {
+  border-bottom: 1px solid #43423f;
+}
+
+.recipe-description {
+  text-align: center;
+}
+
+.recipe-description>p {
+  display: inline-block;
+}
+
+/*------------------------Buttons-------------------------*/
+button:not(.nav-search-button) {
+  background-color: #e12368;
+  color: white;
+  padding: 15px;
+  font-size: 18px;
+  border: none;
+  margin: 2em auto 0 auto;
+  border-radius: 5px;
+}
+
+.regular-button {
+  display: block;
+}
+
+/*------------------------Comments------------------------*/
+.comments p {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+input:not(.nav-search-input),
+textarea {
+  width: 95%;
+  margin: 5px 0 10px;
+  height: 10vh;
+}
+
+.comments button {
+  margin: 25px 0;
+  width: 100%;
+}
+
+.comments form {
+  display: flex;
+  flex-direction: column;
+}
+
+/*--------------------media queries-----------------------*/
+@media screen and (min-width: 600px) {
+  .categories {
+    width: 50%;
+  }
+
+  nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .search {
+    padding-right: 70px;
+  }
+
+  .comments button {
+    width: 25%;
+  }
+}
