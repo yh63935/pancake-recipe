@@ -1,0 +1,189 @@
+/*-------------Variables-----------------*/
+$font-family-text: "Arial", sans-serif;
+$font-size-header: 18px;
+$font-size-body: 21px;
+
+
+$margin-top-general: 50px;
+
+$color-background: #43423f;
+$color-accent: #fee9cd;
+$color-button-background: #e12368;
+$color-button-text: #ffffff;
+
+
+$min-screen-width: 320px;
+$mobile-breakpoint: 600px;
+/*-------------MixIns-----------------*/
+@mixin flex-boxes-vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/*-------------------------General------------------------*/
+body {
+  @include flex-boxes-vertical();
+  font-family: $font-family-text;
+  font-size: $font-size-body;
+  padding: 3%;
+  color: $color-background;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  line-height: 1.8;
+  min-width: $min-screen-width;
+}
+
+
+h1,
+h2,
+h3 {
+  font-family: $font-family-text;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  margin-top: $margin-top-general;
+  margin-bottom: 2px;
+}
+
+
+h4 {
+  margin-top: $margin-top-general;
+}
+/*-------------------------Header------------------------*/
+header {
+  text-align: center;
+  font-size: $font-size-header;
+}
+
+
+img {
+  margin-top: $margin-top-general;
+  object-fit: cover;
+  max-width: 100%;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+
+/*-----------------Navigation Wrapper---------------------*/
+nav {
+  background-color: $color-accent;
+  line-height: 50px;
+  ul {
+    padding: 10px 0 15px 0;
+    display: block;
+    list-style: none;
+    @media screen and (min-width: 600px) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  }
+
+  button {
+    background-color: $color-button-background;
+    color: $color-button-text;
+    font-size: 12px;
+    border: 0;
+  }
+}
+
+.categories {
+  display: inline-flex;
+  justify-content: space-evenly;
+  width: 100%;
+  @media screen and (min-width: 600px) {
+    width: 50%;
+  }
+}
+
+.search {
+  display: flex;
+  @media screen and (min-width: 600px) {
+    padding-right: 70px;
+  }
+  &-container {
+    display: inline-flex;
+    align-items: center;
+  }
+  input {
+    border: 0;
+    border-radius: 0;
+    height: 32px;
+  }
+}
+
+
+/*-------------Reasons to Make the Pancakes---------------*/
+.reasons {
+  margin-bottom: 50px;
+  > h2 {
+    text-align: center;
+  }
+}
+
+
+/*-------------------------Recipe-------------------------*/
+.recipe {
+  &-container {
+    padding: 3vh 4vw;
+    background-color: $color-accent;
+    margin: auto;
+  }
+  &-description {
+    text-align: center;
+    h3 {
+      border-bottom: 1px solid #43423f;
+    }
+    > h2 {
+      margin-bottom: 0;
+    }
+    > p {
+      display: inline-block;
+    }
+  }
+}
+
+
+/*------------------------Buttons-------------------------*/
+button:not(.nav-search-button) {
+  background-color: $color-button-background;
+  color: $color-button-text;
+  padding: 15px;
+  font-size: 18px;
+  border: none;
+  margin: 2em auto 0 auto;
+  border-radius: 5px;
+}
+
+
+.regular-button {
+  display: block;
+}
+/*------------------------Comments------------------------*/
+.comments {
+  p {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  button {
+    margin: 25px 0;
+    width: 100%;
+    @media screen and (min-width: 600px) {
+      width: 25%;
+    }
+  }
+  form {
+    @include flex-boxes-vertical();
+  }
+}
+
+input:not(.nav-search-input),
+textarea {
+  width: 95%;
+  margin: 5px 0 10px;
+  height: 10vh;
+}
