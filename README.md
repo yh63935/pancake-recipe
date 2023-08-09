@@ -1,5 +1,6 @@
 # pancake-recipe
 This is a recipe blog page for banana egg pancakes using HTML and CSS/SASS.
+
 **note: please do not take the picture as it was taken by me of some actual banana egg pancakes I made
 
 I wanted to try making a sample blog page website/mockup for some banana egg pancakes I made (which were quite delicious by the way). 
