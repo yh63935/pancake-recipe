@@ -42,6 +42,7 @@ Unfortunately since this project is marking the start of my web development jour
 
 * HTML
 * CSS
+* SASS
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
