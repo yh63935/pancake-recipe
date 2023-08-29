@@ -52,7 +52,7 @@ Quick start:
 
 Simply download the files and open the index.html file up to see the site.
 
-If you want to use the SASS file instead, install and run SASS [SASS](https://sass-lang.com/install/)
+If you want to use the SASS file instead, install and run [SASS](https://sass-lang.com/install/)
 
 <!-- CONTACT -->
 ## Contact
