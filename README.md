@@ -57,9 +57,9 @@ If you want to use the SASS file instead, install and run SASS [SASS](https://sa
 <!-- CONTACT -->
 ## Contact
 
-Amelia Ho - [Amelia Ho Linkedin](https://www.linkedin.com/in/ameliahoyp/))
+Amelia Ho - [Amelia Ho Linkedin](https://www.linkedin.com/in/ameliahoyp/)
 
-Project Link: [https://github.com/yh63935/chrome-extension-save-input](https://github.com/yh63935/chrome-extension-save-input)
+Project Link: [https://github.com/yh63935/pancake-recipe](https://github.com/yh63935/pancake-recipe)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
