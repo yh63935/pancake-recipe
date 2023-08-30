@@ -47,12 +47,16 @@
             <p>Cook time: 3 minutes</p>
             <p>Yields: 1 serving</p>
           </div>
+        </section>
+        <section>
           <h3>Ingredients</h3>
           <ul>
             <li>1 banana (preferably ripe)</li>
             <li>2 eggs</li>
             <li>Butter or oil to cook the pancakes</li>
           </ul>
+        </section>
+        <section>
           <h3>Equipment</h3>
           <ul>
             <li>1 bowl</li>
@@ -60,6 +64,8 @@
             <li>1 fork</li>
             <li>Pan or griddle for frying the pancake</li>
           </ul>
+        </section>
+        <section>
           <h3>Instructions</h3>
           <ol>
             <li>Use the fork to mash the banana in one bowl thoroughly (you want it to be all mushy).</li>
@@ -68,23 +74,25 @@
             <li>Drop 2 tablespoons of the batter onto the hot pan. Cook until edges are set and center is slightly loose, then flip onto the other side. Repeat as necessary until pancake is cooked thoroughly.</li>
             <li>Finally the exciting part! Serve your pancakes with toppings and sauces of your choice and enjoy! My favorites include topping with honey, maple syrup, strawberries, and whipped cream.</li>
           </ol>
-          <a href='google.com'><button class="regular-button">Get more easy recipes here!</button></a> 
+          <a href='google.com'><button class="regular-button">Get more easy recipes here!</button></a>
         </div>
       </section>
-      <div class='comments'>
-        <h2>Loved this recipe or have suggestions?</h2>
-        <form action='google.com' method='post'>
-          <h4>Leave a comment below!</h4>
-          <p>Only your comment and name will be published.</p>
-          <label for='name'>Name*</label>
-          <input id='name' type='name' required></input>
-          <label for='email'>Email*</label>
-          <input id='email' type='email' required></input>
-          <label for='comment'>Comment*</label>
-          <textarea id='comment' rows ='10' required></textarea>
-          <button type='submit' class="regular-button">Post Comment</button>
-        </form>
-      </div>
+      <section>
+        <div class='comments'>
+          <h2>Loved this recipe or have suggestions?</h2>
+          <form action='google.com' method='post'>
+            <h4>Leave a comment below!</h4>
+            <p>Only your comment and name will be published.</p>
+            <label for='name'>Name*</label>
+            <input id='name' type='name' required></input>
+            <label for='email'>Email*</label>
+            <input id='email' type='email' required></input>
+            <label for='comment'>Comment*</label>
+            <textarea id='comment' rows ='10' required></textarea>
+            <button type='submit' class="regular-button">Post Comment</button>
+          </form>
+        </div>
+      </section>
     </main>
   </body>
 </html>
