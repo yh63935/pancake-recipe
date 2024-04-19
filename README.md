@@ -54,6 +54,10 @@ Simply download the files and open the index.html file up to see the site.
 
 If you want to use the SASS file instead, install and run [SASS](https://sass-lang.com/install/)
 
+For a live view:
+- Github Pages (https://yh63935.github.io/pancake-recipe/)
+- Netlify (https://thriving-basbousa-624a24.netlify.app/)
+
 <!-- CONTACT -->
 ## Contact
 
