@@ -1,5 +1,5 @@
-# pancake-recipe
-# This is a responsive recipe blog web page.
+# pancake-recipe-blog
+ This is a responsive blog page for a pancake recipe.
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -55,7 +55,7 @@ Simply download the files and open the index.html file up to see the site.
 If you want to use the SASS file instead, install and run [SASS](https://sass-lang.com/install/)
 
 For a live view:
-- Github Pages (https://yh63935.github.io/pancake-recipe/)
+- Github Pages (https://yh63935.github.io/pancake-recipe-blog/)
 - Netlify (https://thriving-basbousa-624a24.netlify.app/)
 
 <!-- CONTACT -->
